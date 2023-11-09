@@ -40,12 +40,77 @@
 }
 
 @media (max-width:1024px){
+    .profile-container{
+        width: 120px;
+        margin-top: 10px;
+    }
+    .profile-card{
+        width: 17%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 2px solid rgb(167, 162, 162);
+        border-radius: 5px;
+    }
+    .staff{
+        margin-top: 20px;
+        padding: 0 20px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly
+    }
+    #history{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 30px;
+    }
 
 }
 
 @media (max-width:768px){
+    .profile-container{
+        width: 100px;
+        margin-top: 10px;
 
+    }
+    .profile-card{
+        width: 19%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 2px solid rgb(167, 162, 162);
+        border-radius: 5px;
+    }
+    .name, .role{
+        text-align: center;
+    }
 }
 @media (max-width:360px){
+    .profile-card{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 2px solid rgb(167, 162, 162);
+        border-radius: 5px;
+        margin-bottom: 9px;
+    }
+    .staff{
+        margin-top: 20px;
+        padding: 0 20px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+    .profile-container{
+        width: 100px;
+        margin-top: 10px;
 
+    }
 }

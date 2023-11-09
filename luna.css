@@ -37,8 +37,16 @@ main{
 }
 
 @media (max-width:768px){
-
+    .titles-moon{
+        padding: 20px;
+    }
 }
 @media (max-width:360px){
-
+    .images-moon img{
+        height: 150px;
+        margin-top: 30px;
+        margin-bottom: 50px;
+        border-radius: 15px;
+        transition: all 0.5s;
+    }
 }

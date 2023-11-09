@@ -166,6 +166,19 @@ p.description{
 
 }
 
+@media (max-width:660px){
+    .img-container img{
+        height: 200px;
+        margin-top: 40px;
+        display: flex;
+        border-radius: 10px;
+        transition: all 0.3 ease;
+    }
+
+
+}
+
+
 @media (max-width:360px){
     .img-container img{
         height: 100px;
